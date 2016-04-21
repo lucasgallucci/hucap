@@ -1,0 +1,418 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.web {
+  display: flex;
+  flex-direction: column; }
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #5D5D5D; }
+
+p {
+  font-size: 12px;
+  line-height: 21px;
+  font-weight: 400; }
+
+.btn {
+  background: #F1BF4E;
+  border: none;
+  color: white;
+  display: inline-block;
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border-radius: 3px; }
+
+h1.title {
+  font-family: Raleway;
+  text-transform: lowercase;
+  font-weight: 700;
+  margin: 30px 0;
+  font-size: 31px;
+  letter-spacing: -1px; }
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  border: 0;
+  border-radius: 0;
+  background: white;
+  z-index: 10;
+  padding: 15px;
+  z-index: 1000; }
+
+.navbar-brand {
+  max-width: 140px;
+  box-sizing: border-box;
+  padding: 10px; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #666;
+  text-shadow: none;
+  text-transform: uppercase;
+  font-size: 11px; }
+
+.dropdown-menu > li > a {
+  font-size: 12px; }
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+  color: #EFAB22;
+  background-color: transparent; }
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    padding: 0; } }
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a {
+  background: #5D5D5D !important; }
+
+.btn-cv {
+  padding: 5px 10px !important;
+  margin: 9px;
+  background: #F1BF4E;
+  border: none;
+  color: white !important;
+  border: 1px solid #F1BF4E; }
+  .btn-cv:visited {
+    padding: 5px 10px !important;
+    margin: 9px;
+    background: #F1BF4E;
+    border: none;
+    color: white !important;
+    border: 1px solid #F1BF4E; }
+  .btn-cv:hover, .btn-cv:active {
+    background: white;
+    color: #c99010 !important; }
+
+.navbar-inverse .navbar-toggle {
+  border: none; }
+
+.navbar-toggle {
+  background-color: #F1BF4E; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border: none; }
+
+header {
+  background: black url(http://www.rekaoil.com/wp-content/uploads/2015/12/insankaynaklaripolitikasi_2.jpg) no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-repeat: no-repeat;
+  display: table;
+  width: 100%; }
+  header video {
+    width: 100%;
+    z-index: -100;
+    background: black url(http://www.rekaoil.com/wp-content/uploads/2015/12/insankaynaklaripolitikasi_2.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat; }
+  header .hola {
+    z-index: 99;
+    font-size: 170px;
+    font-family: Roboto;
+    font-weight: 700;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    height: 500px; }
+    header .hola h1 {
+      font-size: 30px;
+      letter-spacing: -1px;
+      font-weight: 700;
+      margin: 0;
+      max-width: 760px;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+      display: inline-block;
+      color: white; }
+    header .hola h2 {
+      font-size: 26px;
+      font-weight: 300;
+      top: -50px;
+      color: white;
+      position: relative;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
+
+.offset {
+  position: relative;
+  top: -100px; }
+
+.productos {
+  background: #50AFAF;
+  padding: 20px 0 50px 0; }
+  .productos .container {
+    padding: 20px; }
+  .productos h1 {
+    color: white;
+    margin: 30px 0 50px 0; }
+  .productos article {
+    padding: 40px 0 0 20px;
+    background-size: 100%;
+    min-height: 140px;
+    transition: 1s;
+    background-position: center; }
+    .productos article .blackout {
+      background: rgba(0, 0, 0, 0.3);
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      transition: 0.5s; }
+      .productos article .blackout:hover {
+        background: transparent; }
+    .productos article:hover {
+      background-size: 120%;
+      background-position: center; }
+    .productos article h1 {
+      padding: 0 10px;
+      font-size: 16px;
+      line-height: 18px;
+      color: white;
+      margin: 0 40px 0 0px;
+      position: absolute;
+      bottom: 20px; }
+      .productos article h1 span {
+        font-size: 14px;
+        letter-spacing: 0;
+        text-transform: uppercase;
+        font-weight: 300;
+        background: #F1BF4E;
+        box-shadow: -10px 0 0 #F1BF4E, 10px 0 0 #F1BF4E; }
+
+#servicios {
+  background: #5B59A1; }
+  #servicios h1 {
+    font-size: 31px;
+    color: white;
+    margin: 40px 0 50px 0; }
+  #servicios ul {
+    padding: 0; }
+    #servicios ul span {
+      font-size: 50px;
+      background: #eee;
+      display: inline-block;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      line-height: 80px;
+      border: 5px solid #ddd;
+      box-sizing: border-box;
+      color: #ccc; }
+    #servicios ul li {
+      padding: 7px;
+      list-style: none;
+      margin: 3px;
+      font-weight: 700;
+      color: #F1BF4E;
+      margin-bottom: 30px; }
+      #servicios ul li a {
+        color: white;
+        font-weight: 400;
+        display: inline-block;
+        max-width: 200px; }
+
+#clientes {
+  background: #EFEFEF;
+  padding: 30px 0; }
+  #clientes ul {
+    padding: 0; }
+    #clientes ul li {
+      list-style: none; }
+      #clientes ul li div {
+        padding: 10px; }
+
+.paneles .ofertas {
+  padding-right: 30px; }
+  .paneles .ofertas ul {
+    padding: 0; }
+    .paneles .ofertas ul li {
+      list-style: none;
+      padding: 4px; }
+      .paneles .ofertas ul li article {
+        background: #EEE;
+        padding: 5px; }
+        .paneles .ofertas ul li article h1 {
+          font-size: 16px;
+          font-weight: 300;
+          font-family: Raleway;
+          margin: 5px 0; }
+        .paneles .ofertas ul li article h3 {
+          font-size: 12px;
+          margin: 5px 0; }
+.paneles .medios {
+  padding-left: 30px; }
+  .paneles .medios .articulo .fecha {
+    font-size: 11px; }
+  .paneles .medios .articulo h1 {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-family: Raleway; }
+  .paneles .medios .articulo h6 {
+    font-weight: 700;
+    font-size: 12px; }
+
+.newsletter {
+  background-color: aliceblue;
+  padding: 30px 0; }
+  .newsletter article h1 {
+    font-size: 16px;
+    font-family: Raleway;
+    font-weight: 700; }
+  .newsletter article h4 {
+    font-size: 14px;
+    font-weight: 300; }
+  .newsletter article form {
+    text-align: center;
+    margin: 50px 0; }
+    .newsletter article form legend {
+      border: none;
+      font-weight: 300;
+      text-transform: uppercase; }
+    .newsletter article form input[type="email"] {
+      min-width: 500px;
+      font-size: 20px;
+      line-height: 65px;
+      font-weight: 300;
+      border: none;
+      border-bottom: 5px solid #eee;
+      background: white;
+      padding: 1px 30px;
+      font-weight: 300; }
+    .newsletter article form .btn {
+      border-radius: 0;
+      left: -4px;
+      position: relative;
+      height: 72px;
+      top: -1px;
+      padding: 0 30px;
+      font-size: 20px;
+      font-weight: 300;
+      color: white;
+      border: none;
+      background: orange;
+      border-bottom: 5px solid #cc8400; }
+
+.paneles {
+  background: url(http://blogs-images.forbes.com/allbusiness/files/2014/12/Fotolia_74087814_Subscription_Monthly_M.jpg);
+  background-size: cover;
+  padding: 50px 0;
+  background-attachment: fixed; }
+  .paneles .container .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; }
+    @media screen and (max-width: 992px) {
+      .paneles .container .flex-container {
+        flex-direction: column; } }
+    .paneles .container .flex-container .well {
+      margin: 30px 15px;
+      padding: 0 20px;
+      border-radius: 0;
+      background: #f7f7f7;
+      border: none;
+      -moz-border-radius: 2px;
+      -webkit-border-radius: 2px;
+      border-radius: 2px;
+      -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+      padding-bottom: 40px;
+      flex: 1; }
+      .paneles .container .flex-container .well h1.title {
+        margin: 30px 0;
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase; }
+      .paneles .container .flex-container .well .btn {
+        position: absolute !important;
+        bottom: -20px;
+        border-radius: 0 0 2px 2px;
+        left: 0;
+        width: 100%; }
+
+.col-lg-1b {
+  width: 11.1111111111%;
+  position: relative;
+  min-height: 1px;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: left; }
+
+footer {
+  padding: 30px 0;
+  color: white;
+  background: #5D5D5D; }
+  footer p {
+    color: white; }
+  footer img {
+    max-width: 150px; }
+  footer .title {
+    color: white;
+    margin: 0 0 10px 0;
+    font-size: 22px; }
+  footer ul.redes li {
+    display: inline-block;
+    background: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px; }
+    footer ul.redes li span {
+      color: #5D5D5D;
+      font-size: 20px;
+      line-height: 30px;
+      margin-left: 0 !important; }
+  footer ul {
+    list-style: none;
+    padding: 0; }
+    footer ul li {
+      font-family: Roboto;
+      font-size: 12px;
+      color: #333;
+      line-height: 25px;
+      font-weight: 300;
+      color: white; }
+      footer ul li a {
+        color: white; }
+      footer ul li span {
+        margin-left: 10px;
+        color: white; }
+
+.newsletter {
+  background: url(http://cdn.geekwire.com/wp-content/uploads/2015/05/Kindle-Outdoor-Reading.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white !important;
+  padding: 0; }
+  .newsletter .n2 {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 50px 0; }
+    .newsletter .n2 h1, .newsletter .n2 h4 {
+      color: white; }
+    .newsletter .n2 legend {
+      color: white; }
+
+.rese {
+  border-radius: 0;
+  background: white;
+  border: none;
+  padding: 20px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); }
+  .rese h1.title {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #5D5D5D; }
+  .rese img {
+    float: left;
+    margin: 0 20px 10px 0px; }
+
+/*# sourceMappingURL=style.css.map */
